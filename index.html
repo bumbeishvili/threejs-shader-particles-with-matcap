@@ -37,8 +37,8 @@
         let experience;
 
         Promise.all([
-            d3.text('/scripts/shaders/vertex.glsl'),
-            d3.text('/scripts/shaders/fragment.glsl'),
+            d3.text('scripts/shaders/vertex.glsl'),
+            d3.text('scripts/shaders/fragment.glsl'),
             d3.json('data/data.json')
         ]).then(([vertexShader, fragmentShader, data]) => {
             experience = new Experience()

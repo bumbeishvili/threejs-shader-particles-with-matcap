@@ -91,7 +91,7 @@ export default class Experience {
     }
     setupTextures() {
         const textureLoader = new THREE.TextureLoader()
-        const texture = textureLoader.load('/assets/matcap.png');
+        const texture = textureLoader.load('assets/matcap.png');
         texture.rotation = Math.PI * 2;
         this.setState({ texture, textureLoader })
     }
