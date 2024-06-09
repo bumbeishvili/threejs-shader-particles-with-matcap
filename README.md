@@ -1,1 +1,1 @@
-# Particles => Sphere => Area
+# ThreeJS shader particles
